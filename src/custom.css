@@ -1,0 +1,22 @@
+/* my custom  */
+.swiper-button-prev,
+.swiper-button-next {
+    height: 5px;
+    width: 5px;
+    color: black;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 28px;
+}
+
+#main-wrapper {
+    padding-bottom: 500px !important;
+}
+
+@media (max-width:992px) {
+    #main-wrapper {
+        padding-bottom: 0px !important;
+    }
+}
